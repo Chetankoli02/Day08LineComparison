@@ -9,5 +9,8 @@ internal class Program
 
         CheckEquality checkEquality = new CheckEquality();
         checkEquality.Main(args);
+
+        CompareTwolines compareTwolines = new CompareTwolines();
+        compareTwolines.Main(args);
     }
 }
