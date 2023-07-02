@@ -6,5 +6,8 @@ internal class Program
     {
         CalculateItsLength calculateItsLength = new CalculateItsLength();
         calculateItsLength.Main(args);
+
+        CheckEquality checkEquality = new CheckEquality();
+        checkEquality.Main(args);
     }
 }
